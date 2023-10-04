@@ -1,0 +1,20 @@
+[package]
+name = "auto_driver_mutator"
+version = "0.1.0"
+authors = ["Valentin Metz"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+custom_mutator = { path = "AFLplusplus/custom_mutators/rust/custom_mutator" }
+serde = { version = "1.0.160", features = ["derive"] }
+serde_json = "1.0.96"
+rand = "0.8.4"
+libafl = "0.11.1"
+log = { version = "0.4", features = ["release_max_level_info"] }
+env_logger = "0.10.0"
+
+[lib]
+name = "auto_driver_mutator"
+crate-type = ["cdylib", "lib"]
