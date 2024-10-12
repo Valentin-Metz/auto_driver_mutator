@@ -20,7 +20,5 @@ We outline further research opportunities aimed at surpassing the performance of
 enabling AutoDriver to produce better overall results in the library fuzzing domain.
 
 ---
-Unfortunately I am unable to publish the full thesis at this time,
-as it contains yet unpublished research from my thesis supervisor.
-This repository merely contains the source code of the custom mutator,
-without any AutoDriver generated fuzz-drivers required for its operation.
+
+The full thesis is available [here](Structure-Aware Mutations for Library-Fuzzing.pdf).
