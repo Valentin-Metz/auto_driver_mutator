@@ -21,4 +21,4 @@ enabling AutoDriver to produce better overall results in the library fuzzing dom
 
 ---
 
-The full thesis is available [here](Structure-Aware Mutations for Library-Fuzzing.pdf).
+The full thesis is available [here](https://github.com/Valentin-Metz/auto_driver_mutator/blob/master/Structure-Aware%20Mutations%20for%20Library-Fuzzing.pdf).
